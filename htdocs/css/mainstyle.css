@@ -1,0 +1,37 @@
+body 
+{
+  margin: 0;
+  padding: 0;
+  background: rgb(61, 61, 60);
+}
+
+#wrap
+{
+  width: 86.5%;
+  margin: auto;
+  background: rgba(251, 54, 64, 0.25);
+  overflow: hidden;
+  padding: 15px;
+}
+
+
+.box {
+    background-color: rgba(255, 0, 0, 0.764);; /* Box color */
+    border: 5px solid rgba(255, 255, 255, 0.675); /* Border color */
+    padding: 5px;
+    margin-bottom: 5px;
+    width: 300px;
+    height: 275px; /* Added height property to set the fixed height */
+    overflow: hidden; /* Added overflow property to hide overflowing content */
+    float: left;
+    margin-right: 20px;
+
+}
+.box a {
+    text-decoration: none;
+    color: rgb(0,0,0); /* Header color */
+}
+
+
+
+
