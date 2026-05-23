@@ -19,25 +19,6 @@ A PHP-based web application for a device repair shop, allowing customers to brow
 | Frontend | HTML, CSS, Bootstrap 4, MDB (Material Design Bootstrap) |
 | Rich text | TinyMCE (bundled) |
 
-## Project structure
-htdocs/
-├── index.php              # Homepage — product listing + login form
-├── booking.php            # Repair booking form
-├── css/
-│   ├── mainstyle.css      # Custom styles
-│   ├── header.css         # Navbar styles
-│   └── mdb.min.css        # MDB framework
-├── js/
-│   ├── script.js          # Animation controls
-│   ├── mdb.min.js         # MDB framework
-│   └── tinymce/           # TinyMCE rich text editor
-└── includes/
-├── config.inc.php     # Session start
-├── database.inc.php   # Database connection
-├── function.inc.php   # Helper functions (auth, messaging)
-├── header.inc.php     # Shared navbar
-└── footer.inc.php     # Shared footer
-
 ## Setup
 
 1. Clone the repo into your web server's document root (e.g. `htdocs/` in XAMPP)
